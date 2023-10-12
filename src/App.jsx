@@ -1,5 +1,6 @@
 import "./app.scss"
 import Navbar from "./components/navbar/Navbar.jsx";
+import Test from "./Test.jsx";
 const App = () => {
   return <div>
     <section>
@@ -11,6 +12,7 @@ const App = () => {
     <section>Portfolio1</section>
     <section>Portfolio2</section>
     <section>Contact</section>
+    {/*<Test />*/}
   </div>;
 };
 
